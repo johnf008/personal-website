@@ -6,3 +6,34 @@ body {
     text-align: center;
     font-family: 'Arial';
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 10px;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #89a0ce;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.rows {
+    cursor: pointer;
+}
+
+.span {
+    width: 30px; 
+    height: 4px;
+    background-color: black;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transition: 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
