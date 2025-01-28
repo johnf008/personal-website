@@ -5,6 +5,11 @@ img {
 body {
     text-align: center;
     font-family: 'Arial';
+    background: url("https://www.travelandleisure.com/thmb/I9VMFOpizyils9O_1TGqqpHXeYo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/havasu-falls-arzona-us-WATERFALLS1021-d0967cd424ea4a2abde23cb3581144dc.jpg");
+}
+
+head {
+    font-family: 'Arial';
 }
 
 * {
@@ -37,3 +42,20 @@ body {
     transition: 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
+.information {
+    background-color: #b7d9ff;
+    
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    
+    border-radius: 20px;
+}
+
+.nav-el {
+    border-radius:20px;
+    background-color: white;
+    width: 20%;
+    text-align: center;
+}
